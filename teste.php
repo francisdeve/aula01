@@ -4,9 +4,12 @@ echo "meu primeiro sistema";
 echo "<h1>meu primeiro sistema</h1>";
 $nome="Francis Moreira";
 $idade=19;
-if($idade=>18){ 
-    echo 'é maior de idade';
-}else{ 
-     echo 'é menor de idade';
-}
+//if($idade=>18){ 
+//    echo 'é maior de idade';
+//}else{ 
+//     echo 'é menor de idade';
+//}
 ?>
+Qual é seu nome?<input type="text"><br><br>
+Qual é sua idade?<input type="text">
+<input type="submit" value="ENVIAR">
